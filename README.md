@@ -1,6 +1,8 @@
 ## Bullet Graph
 
 # Basic Uage
+
+```
 ReactDOM.render(
   <BulletGraph
   width={400}
@@ -14,3 +16,4 @@ ReactDOM.render(
 document.getElementById('root')
 
 );
+```
