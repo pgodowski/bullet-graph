@@ -1,0 +1,6 @@
+{
+  "name": "Bullet-graph",
+  "tagline": "ReactJS component to create a bullet graph",
+  "body": "## Bullet Graph\r\n\r\n# Basic Uage\r\n\r\n```\r\nReactDOM.render(\r\n  <BulletGraph\r\n  width={400}\r\n  height={400}\r\n  low={100}\r\n  mid={200}\r\n  high={250}\r\n  actual={130}\r\n  target={220}\r\n/>,\r\ndocument.getElementById('root')\r\n\r\n);\r\n```\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
