@@ -12,6 +12,7 @@ class BulletGraph extends Component {
       low: props.low,
       high: props.high,
       mid: props.mid,
+      label: props.label
     };
   }  
 
@@ -41,6 +42,7 @@ class BulletGraph extends Component {
    var rectLowHeight = (this.state.low*chartHeight)/totalHeight;
    var actualHeight = (this.state.actual*chartHeight)/totalHeight;
    var targetHeight = (this.state.target*chartHeight)/totalHeight;
+   var labelOffset = 30;
    return (
    <Chart
       width={this.state.width}
@@ -58,6 +60,8 @@ class BulletGraph extends Component {
         y={y}
         yDomain={yDomain}
         yScale={yScale}
+        yLabel={this.state.label}
+        labelOffset={labelOffset}
       />
     </Chart>
    );

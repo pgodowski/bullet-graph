@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom';
 import BulletGraph from './BulletGraph'
 import './index.css';
 
+var label = 'Test Label';
+
 ReactDOM.render(
   <BulletGraph
   width={400}
@@ -13,6 +15,7 @@ ReactDOM.render(
   high={250}
   actual={130}
   target={220}
+  label={label}
 />,
   document.getElementById('root')
 );
