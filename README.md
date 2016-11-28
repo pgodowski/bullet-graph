@@ -1,7 +1,7 @@
 ## Bullet Graph
 
 # Basic Uage
-
+```
 var label = 'Test Label';
 var orientation = 'horizontal';
 
@@ -20,3 +20,4 @@ ReactDOM.render(
 document.getElementById('root')
 
 );
+```
