@@ -3,6 +3,7 @@
 # Basic Uage
 
 var label = 'Test Label';
+var orientation = 'horizontal';
 
 ReactDOM.render(
   <BulletGraph
@@ -14,6 +15,7 @@ ReactDOM.render(
   actual={130}
   target={220}
   label={label}
+  orientation={orientation}
 />,
 document.getElementById('root')
 
