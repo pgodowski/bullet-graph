@@ -106,8 +106,8 @@ class BulletGraph extends Component {
       <rect style={style3} height="80" x="0" y={this.state.height-margins.bottom-margins.top-barHeight} width={rectLowWidth}/>
       <rect style={style2} height="80" x={rectLowWidth} y={this.state.height-margins.bottom-margins.top-barHeight} width={rectMidWidth}/>
       <rect style={style1} height="80" x={rectLowWidth+rectMidWidth} y={this.state.height-margins.bottom-margins.top-barHeight} width={rectMaxWidth}/>
-      <line stroke="black" strokeWidth="6" x1="0" y1={this.state.height-margins.bottom-margins.top-lineHeight} x2={this.state.height-margins.left-margins.right-actualWidth} y2={this.state.height-margins.bottom-margins.top-lineHeight}></line>
-      <line stroke="black" strokeWidth="3" x1={targetWidth} y1={this.state.height-margins.bottom-lineHeight-l1Height-margins.top} x2={targetWidth} y2={this.state.height-margins.bottom-margins.top-lineHeight+l1Height}></line>
+      <line stroke="black" strokeWidth="6" x1="0" y1={this.state.height-margins.bottom-margins.top-lineHeight} x2={actualWidth} y2={this.state.height-margins.bottom-margins.top-lineHeight}></line>
+      <line stroke="black" strokeWidth="3" x1={targetWidth} y1={this.state.height-lineHeight-margins.bottom-l1Height-margins.top} x2={targetWidth} y2={this.state.height-margins.bottom-margins.top-lineHeight+l1Height}></line>
       <Xaxis
         width={this.state.width}
         height={this.state.height}
